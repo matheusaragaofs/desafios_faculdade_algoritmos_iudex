@@ -1,0 +1,75 @@
+onde moram os sonhos
+25
+a verdade vos fara livre
+20
+o santo e o rei: encantarias de sebastiao
+15
+nas encruzilhadas da vida, entre becos, ruas e vielas, a sorte esta lancada: salve-se quem puder!
+20
+
+20-A 20-B    [15 20-B 20-A ]
+
+20-B 
+rua lateral =  [ X, Y ,Z 20-A ]
+remover 20-A
+adiciona 20-B
+adiciona 20-A
+rua lateral =  [ X, Y ,Z 20-B , 20-A ]
+
+
+
+
+
+TESTE 1 [OK] A>B>C
+
+
+onde moram os sonhos
+25
+o santo e o rei: encantarias de sebastiao
+20
+nas encruzilhadas da vida, entre becos, ruas e vielas, a sorte esta lancada: salve-se quem puder!
+15
+
+
+TESTE 2 [OK] A<B<C
+
+onde moram os sonhos
+15
+onde moram os sonhos
+20
+onde moram os sonhos
+25
+
+
+
+TESTE 4 = [OK] A>B<C
+onde moram os sonhos
+25
+onde moram os sonhos
+20
+onde moram os sonhos
+50
+
+
+TESTE 5 = [OK] A>B<C
+onde moram os sonhos
+50
+onde moram os sonhos
+100
+onde moram os sonhos
+150
+
+
+
+TESTE 6 = OK FALSE 
+onde moram os sonhos
+15
+onde moram os sonhos
+20
+onde moram os sonhos
+30
+onde moram os sonhos
+17
+
+
+
